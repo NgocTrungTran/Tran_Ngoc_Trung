@@ -9771,3 +9771,19 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.dp-none {
+  display: none;
+}
+.dp-block {
+  display: block;
+}
+
+.icon-langue{
+  width: 50px;
+  transition: 0.5s all ease-in-out;
+  cursor: pointer;
+}
+.icon-langue:hover{
+  transform: scale(1.2);
+}

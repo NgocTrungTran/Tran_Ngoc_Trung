@@ -317,3 +317,16 @@ $(function() {
 
 });
 
+$(".cl-ctm").on('click', () => {
+	$(".ctm").click();
+});
+
+$(".icon-vietnamese").on('click', () => {
+	$(".portfolio-vi").removeClass("dp-none");
+	$(".portfolio-en").addClass("dp-none");
+});
+$(".icon-english").on('click', () => {
+	$(".portfolio-en").removeClass("dp-none");
+	$(".portfolio-vi").addClass("dp-none");
+});
+
