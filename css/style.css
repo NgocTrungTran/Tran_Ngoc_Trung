@@ -9013,7 +9013,6 @@ h1, h2, h3, h4, h5,
         color: #fff; }
     .project .text span {
       color: #bed6ff;
-      text-transform: uppercase;
       letter-spacing: 1px;
       font-weight: 600; }
     @media (max-width: 767.98px) {
@@ -9771,6 +9770,10 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.portfolio-vi {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 .dp-none {
   display: none;
